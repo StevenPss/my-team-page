@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Team Page</title>
+    <link rel="shortcut icon" href="./static/devchallenges.png" type="image/png">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+</head>
+<body class="bg-gray-100" style="font-family: Montserrat">
+    <div class="flex flex-col justify-center items-center ">
+
+        <div class="flex justify-between text-left mt-20 mb-20 grid md:grid-cols-2 grid-row-2 gap-8">
+            <div class="font-extrabold text-2xl">The creative crew</div>
+            <div class="w-80">
+                <h5 class="uppercase font-extrabold text-sm mb-2">Who we are</h5>
+                <p class="text-sm">We are a team of creatively diverse, driven, innovative individuals working from various locations around the world.</p>
+            </div>
+        </div>
+
+        <div class="flex md:flex-row flex-col grid md:grid-cols-3 grid-cols-2 md:gap-8 gap-4 mb-5">
+            <!--first row-->
+            <div class="relative">
+                <div class="bg-gray-100 h-8 absolute inset-y-0 right-0">
+                    <p class="text-sm px-2">Product Owner</p>
+                </div>
+                <img src="./static/photo1.png" class="md:h-80 h-52" alt="avatar">
+                <p class="font-extrabold mt-3">Bill Mahoney</p>
+            </div>
+            <div class="relative md:mt-20 mb-10">
+                <div class="bg-gray-100 h-8 absolute inset-y-0 right-0">
+                    <p class="text-sm px-2">Art Director</p>
+                </div>
+                <img src="./static/photo2.png" class="md:h-80 h-52" alt="avatar">
+                <p class="font-extrabold mt-3">Saba Cabrera</p>
+            </div>
+            <div class="relative mb-10">
+                <div class="bg-gray-100 h-8 absolute inset-y-0 right-0">
+                    <p class="text-sm px-2">Tech Lead</p>
+                </div>
+                <img src="./static/photo3.png" class="md:h-80 h-52" alt="avatar">
+                <p class="font-extrabold mt-3">Shae Le</p>
+            </div>
+
+            <!--second row-->
+            <div class="relative">
+                <div class="bg-gray-100 h-8 absolute inset-y-0 right-0">
+                    <p class="text-sm px-2">UX Designer</p>
+                </div>
+                <img src="./static/photo4.png" class="md:h-80 h-52" alt="avatar">
+                <p class="font-extrabold mt-3">Skylah Lu</p>
+            </div>
+            <div class="relative md:mt-20">
+                <div class="bg-gray-100 h-8 absolute inset-y-0 right-0">
+                    <p class="text-sm px-2">Developer</p>
+                </div>
+                <img src="./static/photo5.png" class="md:h-80 h-52" alt="avatar">
+                <p class="font-extrabold mt-3">Griff Richards</p>
+            </div>
+            <div class="relative">
+                <div class="bg-gray-100 h-8 absolute inset-y-0 right-0">
+                    <p class="text-sm px-2">Developer</p>
+                </div>
+                <img src="./static/photo6.png" class="md:h-80 h-52" alt="avatar">
+                <p class="font-extrabold mt-3">Stan John</p>
+            </div>
+        </div><!--grid end-->
+        
+
+        <footer class="flex items-center justify-center text-gray-500 py-3">
+            <span class="mr-1"><a href="https://github.com/StevenPss">StevenPss </a></span>@ <span class="hover:text-gray-600 ml-1"><a href="https://devchallenges.io">DevChallenges.io</a></span>
+        </footer>
+    </div>
+</body>
+</html>
